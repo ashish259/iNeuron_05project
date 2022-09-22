@@ -1,0 +1,80 @@
+
+body{
+    background: url("assets/bg.png");
+    background-size: 100%;
+    background-position:cover;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+}
+section nav.navbar{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+nav.navbar img{
+    height:30px;
+    margin:20px 70px;
+}
+
+div.grow-list ul{
+    position: relative;
+    text-align: center;
+    border-left: 5px white;
+    bottom: 90px;
+    right: 200px;
+}
+ul::before{
+    content: "|";
+    font-size: 40px;
+}
+div.grow-list li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+}
+
+div button.button-small{ 
+    position: relative;
+    left: 80%;
+    bottom:130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: rgb(179, 34, 179);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 10px 30px;
+}
+div.hero h1{
+  font-weight: 800;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+div.hero p{
+    position: relative;
+  font-weight:200;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  bottom: 30px;
+}
+div.hero button.button-large{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    background: rgb(179, 34, 179);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 10px 30px;
+    left:40%;
+
+}
+
+
+
